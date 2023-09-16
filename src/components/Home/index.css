@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.home-content-card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+
+.home-img {
+  width: 15%;
+}
+
+.home-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.home-dark {
+  background-color: #000000;
+}
+
+.home-heading-dark {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .home-img {
+    width: 50%;
+  }
+}
